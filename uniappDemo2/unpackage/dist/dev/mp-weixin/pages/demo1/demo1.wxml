@@ -1,0 +1,1 @@
+<view class="demo1"><child-component u-i="5ebc89c9-0" bind:__l="__l"></child-component></view>
