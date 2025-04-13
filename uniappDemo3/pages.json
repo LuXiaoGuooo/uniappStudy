@@ -1,0 +1,64 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path" : "pages/demo1/demo1",
+			"style" : 
+			{
+				"navigationBarTitleText" : "毕设",
+				"navigationBarBackgroundColor": "#ff6500",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path" : "pages/demo2/demo2",
+			"style" : 
+			{
+				"navigationBarTitleText" : "加油"
+			}
+		},
+		{
+			"path" : "pages/demo3/demo3",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#999",
+		"selectedColor": "pink",
+		"list" :[
+			{
+				"pagePath": "pages/index/index",
+				"text": "写给徐少",
+				"iconPath": "/static/tabBar/home.png",
+				"selectedIconPath": "/static/tabBar/home-h.png"
+			},{
+				"pagePath": "pages/demo1/demo1",
+				"text": "我是谁？",
+				"iconPath": "/static/tabBar/user.png",
+				"selectedIconPath": "/static/tabBar/user-h.png"
+			},{
+				"pagePath": "pages/demo2/demo2",
+			    "text": "写给你",
+				"iconPath": "/static/tabBar/classify.png",
+				"selectedIconPath": "/static/tabBar/classify-h.png"
+			}
+			
+		]
+	}
+}
+

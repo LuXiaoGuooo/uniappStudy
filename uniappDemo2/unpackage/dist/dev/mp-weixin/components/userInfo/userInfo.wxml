@@ -1,1 +1,0 @@
-<view class="userInfo"><image src="{{a}}"></image><view class="title">{{b}}</view></view>

@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "demo1",
-  "usingComponents": {
-    "child-component": "../../components/ChildComponent/ChildComponent"
-  }
-}

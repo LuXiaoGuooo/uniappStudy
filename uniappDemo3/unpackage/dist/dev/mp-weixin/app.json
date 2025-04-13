@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/demo1/demo1",
+    "pages/demo2/demo2",
+    "pages/demo3/demo3"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "pink",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "写给徐少",
+        "iconPath": "/static/tabBar/home.png",
+        "selectedIconPath": "/static/tabBar/home-h.png"
+      },
+      {
+        "pagePath": "pages/demo1/demo1",
+        "text": "我是谁？",
+        "iconPath": "/static/tabBar/user.png",
+        "selectedIconPath": "/static/tabBar/user-h.png"
+      },
+      {
+        "pagePath": "pages/demo2/demo2",
+        "text": "写给你",
+        "iconPath": "/static/tabBar/classify.png",
+        "selectedIconPath": "/static/tabBar/classify-h.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
