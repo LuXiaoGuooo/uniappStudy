@@ -6719,9 +6719,9 @@ function initOnError() {
   };
 }
 function initRuntimeSocketService() {
-  const hosts = "127.0.0.1,172.20.21.169,198.18.0.1";
+  const hosts = "127.0.0.1,172.20.83.53,198.18.0.1";
   const port = "8090";
-  const id = "mp-weixin_Q_BIG6";
+  const id = "mp-weixin_nQVC3Y";
   const lazy = typeof swan !== "undefined";
   let restoreError = lazy ? () => {
   } : initOnError();
@@ -6789,13 +6789,6 @@ function initMiniProgramGlobalFlag() {
   }
 }
 initRuntimeSocketService();
-const _export_sfc = (sfc, props) => {
-  const target = sfc.__vccOpts || sfc;
-  for (const [key, val] of props) {
-    target[key] = val;
-  }
-  return target;
-};
 function initVueIds(vueIds, mpInstance) {
   if (!vueIds) {
     return;
@@ -7653,7 +7646,6 @@ const createSubpackageApp = initCreateSubpackageApp();
   wx.createPluginApp = global.createPluginApp = createPluginApp;
   wx.createSubpackageApp = global.createSubpackageApp = createSubpackageApp;
 }
-exports._export_sfc = _export_sfc;
 exports.createSSRApp = createSSRApp;
 exports.index = index;
 exports.o = o;

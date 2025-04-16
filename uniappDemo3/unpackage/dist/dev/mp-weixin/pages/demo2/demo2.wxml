@@ -1,0 +1,1 @@
+<view class="demo2"><button bindtap="{{a}}">跳转到demo3</button><button bindtap="{{b}}">跳转到首页</button></view>

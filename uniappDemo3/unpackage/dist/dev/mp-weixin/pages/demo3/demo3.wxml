@@ -1,1 +1,1 @@
-<view class=""></view>
+<view class="demo3"> 老子demo3 <button bindtap="{{a}}">为何不试试返回首页呢？</button></view>

@@ -28,6 +28,13 @@
 			{
 				"navigationBarTitleText" : ""
 			}
+		},
+		{
+			"path" : "pages/demo4/demo4",
+			"style" : 
+			{
+				"navigationBarTitleText" : "demmo4"
+			}
 		}
 	],
 	"globalStyle": {
